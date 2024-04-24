@@ -24,7 +24,7 @@ public class TaskDto {
     @Builder.Default
     @JsonAlias("isCompleted")
     private boolean isCompleted = false;
-    @JsonIgnore
+    //@JsonIgnore
     private Long projectId;
 
     @Override
